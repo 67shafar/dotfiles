@@ -1,1 +1,4 @@
 .cfg
+.config-backup
+.bash_history
+*.backup
