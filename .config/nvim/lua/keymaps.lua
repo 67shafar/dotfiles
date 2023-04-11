@@ -11,3 +11,6 @@ vim.keymap.set("n", "<leader>fu", vim.cmd.UndotreeToggle)
 
 -- Git Commands
 vim.keymap.set("n", "<leader>gs", vim.cmd.Git)
+
+-- Package Management (Mason)
+vim.keymap.set("n", "<leader>m", vim.cmd.Mason)

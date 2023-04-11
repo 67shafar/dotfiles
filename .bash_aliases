@@ -3,3 +3,6 @@ function config {
 }
 
 alias nvim="~/.local/share/nvim-linux64/bin/nvim"
+alias vim="~/.local/share/nvim-linux64/bin/nvim"
+alias vi="~/.local/share/nvim-linux64/bin/nvim"
+alias v="~/.local/share/nvim-linux64/bin/nvim"

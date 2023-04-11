@@ -8,7 +8,7 @@ return {
 		}
 	},
 	opts = {
-			ensure_installed = { "bash", "regex", "lua", "vim", "typescript", "rust", "python", "javascript", "json", "yaml" },
+			ensure_installed = { "java", "bash", "regex", "lua", "vim", "typescript", "rust", "python", "javascript", "json", "yaml" },
 			auto_install = true,
 			-- indent = { enable = false, disable = { "python" } },
 			context_commentstring = { enable = true, enable_autocmd = false },

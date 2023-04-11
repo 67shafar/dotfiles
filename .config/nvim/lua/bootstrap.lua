@@ -18,3 +18,14 @@ vim.opt.rtp:prepend(lazypath)
 -- Load the plugins
 require("lazy").setup("plugins")
 
+-- Setup mason plugins
+require("mason").setup({
+  ui = {
+    icons = {
+			package_installed = "✓",
+      package_pending = "➜",
+      package_uninstalled = "✗"
+    }
+  }
+})
+require("mason-lspconfig").setup()
